@@ -4,7 +4,7 @@ provider "github" {
 }
 
 data "github_repository" "repo" {
-  full_name = "joaov-barbosa/cicd-aws-terraform-actions"
+  full_name = "joaov-barbosa/test-auth-terraform-cloud"
 }
 
 resource "github_actions_variable" "application_name" {
