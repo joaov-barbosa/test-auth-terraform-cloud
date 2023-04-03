@@ -10,11 +10,11 @@ data "github_repository" "repo" {
 resource "github_actions_variable" "application_name" {
   repository    = data.github_repository.repo.name
   variable_name = "application_name"
-  value         = test1
+  value         = "test1"
 }
 resource "github_actions_variable" "deployment_name" {
   repository    = data.github_repository.repo.name
   variable_name = "deployment_name"
-  value         = test2
+  value         = "test2"
 }
 
