@@ -1,5 +1,4 @@
 provider "github" {
-  token = var.token
   owner = "joaov-barbosa"
 }
 
