@@ -1,5 +1,5 @@
 provider "github" {
-  token = var.github_token
+  token = " "
   owner = "joaov-barbosa"
 }
 
