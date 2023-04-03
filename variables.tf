@@ -1,1 +1,1 @@
-#variable "github_token" {}
+variable "token" {sensitive   = true}
